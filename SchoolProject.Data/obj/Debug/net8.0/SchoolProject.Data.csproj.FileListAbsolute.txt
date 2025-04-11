@@ -1,0 +1,13 @@
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\bin\Debug\net8.0\SchoolProject.Data.deps.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\bin\Debug\net8.0\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\bin\Debug\net8.0\SchoolProject.Data.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.AssemblyInfoInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.AssemblyInfo.cs
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\refint\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\ref\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\bin\Debug\net8.0\SchoolProject.Data.runtimeconfig.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.genruntimeconfig.cache

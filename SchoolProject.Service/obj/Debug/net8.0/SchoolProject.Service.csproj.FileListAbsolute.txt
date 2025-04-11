@@ -1,0 +1,17 @@
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Service.deps.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Service.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Service.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Infraustraction.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Data.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\bin\Debug\net8.0\SchoolProject.Infraustraction.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.csproj.AssemblyReference.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.AssemblyInfoInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.AssemblyInfo.cs
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolPr.DAAA73F9.Up2Date
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\refint\SchoolProject.Service.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\ref\SchoolProject.Service.dll

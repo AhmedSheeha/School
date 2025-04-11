@@ -1,0 +1,17 @@
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Infraustraction.deps.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Infraustraction.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Infraustraction.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Data.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Data.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.csproj.AssemblyReference.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.AssemblyInfoInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.AssemblyInfo.cs
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolPr.E28038CE.Up2Date
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\refint\SchoolProject.Infraustraction.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.pdb
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\ref\SchoolProject.Infraustraction.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\bin\Debug\net8.0\SchoolProject.Infraustraction.runtimeconfig.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Infraustraction\obj\Debug\net8.0\SchoolProject.Infraustraction.genruntimeconfig.cache
