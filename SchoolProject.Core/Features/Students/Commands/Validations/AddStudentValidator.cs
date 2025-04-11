@@ -12,11 +12,13 @@ namespace SchoolProject.Core.Features.Students.Commands.Validations
     public class AddStudentValidator : AbstractValidator<AddStudentCommand>
     {
         private readonly IStudentService _studentService;
-        public AddStudentValidator(IStudentService studentService)
+        private readonly IDepartmentService _departmentService;
+        public AddStudentValidator(IStudentService studentService, IDepartmentService departmentService)
         {
             _studentService = studentService;
             ApplyValidationsRules();
             ApplyCustomValidationsRules();
+            _departmentService = departmentService;
         }
         public void ApplyValidationsRules()
         {
@@ -33,6 +35,11 @@ namespace SchoolProject.Core.Features.Students.Commands.Validations
         {
             RuleFor(x => x.Name).MustAsync(async (key, CancellationToken) => !await _studentService.IsNameExist(key))
                 .WithMessage("Name is Exist");
+            When(p => p.DepartmentId != null, () =>
+            {
+                RuleFor(x => x.DepartmentId).MustAsync(async (key, CancellationToken) => await _departmentService.IsDepartmentIdExist(key))
+                .WithMessage("DepartmentId Does not Exist");
+            });
         }
     }
 }

@@ -11,3 +11,5 @@ C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolPro
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\ref\SchoolProject.Data.dll
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\bin\Debug\net8.0\SchoolProject.Data.runtimeconfig.json
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.genruntimeconfig.cache
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.sourcelink.json
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Data\obj\Debug\net8.0\SchoolProject.Data.csproj.AssemblyReference.cache

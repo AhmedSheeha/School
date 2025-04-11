@@ -24,3 +24,4 @@ C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolPro
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.GenerateResource.cache
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Core\obj\Debug\net8.0\Ar\SchoolProject.Core.resources.dll
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Core\obj\Debug\net8.0\En\SchoolProject.Core.resources.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.sourcelink.json

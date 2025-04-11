@@ -15,3 +15,4 @@ C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolPro
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\refint\SchoolProject.Service.dll
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.pdb
 C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\ref\SchoolProject.Service.dll
+C:\Users\ahmed\OneDrive\Documents\Backend Development\SchoolProjectAPI\SchoolProject.Service\obj\Debug\net8.0\SchoolProject.Service.sourcelink.json

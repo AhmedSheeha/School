@@ -28,8 +28,10 @@ namespace SchoolProject.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddInfraustractureDependancies().AddCoreDependancies();
-            builder.Services.AddServiceDependancies();
+            builder.Services.AddInfraustractureDependancies()
+                .AddCoreDependancies()
+                .AddServiceRegisteration().AddServiceDependancies();
+            
             builder.Services.AddControllersWithViews();
             builder.Services.AddLocalization(opt =>
             {
