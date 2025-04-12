@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.ApplicationUser.Commands.Models;
 using SchoolProject.Data.Entities.Identity;
@@ -15,7 +16,8 @@ namespace SchoolProject.Core.Features.ApplicationUser.Commands.Handlers
 {
     public class UserCommandHandler : ResponseHandler,
         IRequestHandler<AddUserCommand, Response<string>>,
-        IRequestHandler<EditUserCommand, Response<string>>
+        IRequestHandler<EditUserCommand, Response<string>>,
+        IRequestHandler<DeleteUserCommand, Response<string>>
     {
         private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
@@ -48,6 +50,15 @@ namespace SchoolProject.Core.Features.ApplicationUser.Commands.Handlers
             var result = await _userManager.UpdateAsync(newUser);
             if (!result.Succeeded) return BadRequest<string>("Failed to Update the Record");
             return Success("");
+        }
+
+        public async Task<Response<string>> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
+        {
+            var User = await _userManager.FindByIdAsync(request.Id.ToString());
+            if (User == null) return NotFound<string>("User is not Found");
+            var result = await _userManager.DeleteAsync(User);
+            if (!result.Succeeded) return BadRequest<string>("Delete Failed");
+            return Success("Deleted Successfully");
         }
     }
 }
