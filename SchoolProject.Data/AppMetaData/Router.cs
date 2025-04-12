@@ -36,6 +36,7 @@ namespace SchoolProject.Data.AppMetaData
             public const string Create = Prefix + "/Create";
             public const string Paginated = Prefix + "/Paginated";
             public const string GetById = Prefix + SingleRoute;
+            public const string Edit = Prefix + "/Edit";
         }
     }
 }
