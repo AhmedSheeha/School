@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/ApplicationUser/Api/V1/User/ChangePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.ApplicationUser.Commands.Models.ChangeUserPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
     "Method": "Create",
     "RelativePath": "api/ApplicationUser/Api/V1/User/Create",
     "HttpMethod": "POST",

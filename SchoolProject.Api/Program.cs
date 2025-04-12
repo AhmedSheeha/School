@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using SchoolProject.Core;
 using SchoolProject.Core.MiddleWare;
-using SchoolProject.Data.Entities.Identity;
 using SchoolProject.Infraustraction;
 using SchoolProject.Infraustraction.Abstracts;
 using SchoolProject.Infraustraction.Data;
