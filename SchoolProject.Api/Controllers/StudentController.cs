@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolProject.Api.Base;
@@ -12,6 +13,7 @@ namespace SchoolProject.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class StudentController : AppControllerBAse
     { 
         [HttpGet(Router.StudentRouting.List)]
@@ -21,6 +23,7 @@ namespace SchoolProject.Api.Controllers
             return NewResult(response);
         }
         [HttpGet(Router.StudentRouting.Prefix + "/Paginated")]
+        [AllowAnonymous]
         public async Task<IActionResult> Paginated([FromQuery]GetStudentPaginatedListQuery query)
         {
             var response = await Mediator.Send(query);
@@ -33,7 +36,7 @@ namespace SchoolProject.Api.Controllers
             return NewResult(response);
         }
         [HttpPost(Router.StudentRouting.Prefix + "/Create")]
-        public async Task<IActionResult> Create([FromBody] AddStudentCommand command)
+        public async Task<IActionResult> Add([FromBody] AddStudentCommand command)
         {
             var response = await Mediator.Send(command);
             return NewResult(response);

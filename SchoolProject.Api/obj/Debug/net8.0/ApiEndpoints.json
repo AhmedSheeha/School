@@ -134,7 +134,7 @@
   },
   {
     "ContainingType": "SchoolProject.Api.Controllers.StudentController",
-    "Method": "Create",
+    "Method": "Add",
     "RelativePath": "api/Student/Api/V1/Student/Create",
     "HttpMethod": "POST",
     "IsController": true,
@@ -199,6 +199,27 @@
       },
       {
         "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "Create",
+    "RelativePath": "Api/V1/Authentication/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
         "Type": "System.String",
         "IsRequired": false
       }
