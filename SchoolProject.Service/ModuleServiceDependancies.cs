@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SchoolProject.Infraustraction.Abstracts;
+using SchoolProject.Infraustraction.Repositories;
 using SchoolProject.Service.Abstracts;
 using SchoolProject.Service.Implementations;
 
@@ -11,6 +12,7 @@ namespace SchoolProject.Service
         {
             services.AddTransient<IStudentService, StudentService>();
             services.AddTransient<IDepartmentService, DepartmentService>();
+            //services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddTransient<IAuthenticationService, AuthenticationService>();
             return services;
         }

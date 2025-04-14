@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SchoolProject.Infraustraction.Abstracts;
 using SchoolProject.Infraustraction.InfraustractureBases;
 using SchoolProject.Infraustraction.Repositories;
+using SchoolProject.Service.Abstracts;
 
 namespace SchoolProject.Infraustraction
 {
@@ -14,6 +15,7 @@ namespace SchoolProject.Infraustraction
             services.AddTransient<IDepartmentRepository, DepartmentRepository>();
             services.AddTransient<IInstructorRepository, InstructorRepository>();
             services.AddTransient<ISubjectRepository, SubjectRepository>();
+            services.AddTransient<IRefreshTokenRepository, RefreshTokenRepository>();
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
             return services;
         }

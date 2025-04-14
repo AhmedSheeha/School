@@ -31,6 +31,7 @@ namespace SchoolProject.Api
                 .AddServiceRegisteration(builder.Configuration).AddServiceDependancies();
             
             builder.Services.AddControllersWithViews();
+
             builder.Services.AddLocalization(opt =>
             {
                 opt.ResourcesPath = "Resources";

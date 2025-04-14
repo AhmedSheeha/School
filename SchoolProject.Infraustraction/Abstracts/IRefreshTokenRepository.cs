@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SchoolProject.Data.Entities.Identity;
-using SchoolProject.Data.Helpers;
+using SchoolProject.Infraustraction.InfraustractureBases;
 
 namespace SchoolProject.Service.Abstracts
 {
-    public interface IAuthenticationService
+    public interface IRefreshTokenRepository : IGenericRepositoryAsync<UserRefreshToken>
     {
-        public Task<JwtAuthResult> GetJWTToken(User user);
+
     }
 }

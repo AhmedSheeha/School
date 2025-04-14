@@ -10,12 +10,13 @@ using Microsoft.Identity.Client;
 using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.Authentication.Commands.Models;
 using SchoolProject.Data.Entities.Identity;
+using SchoolProject.Data.Helpers;
 using SchoolProject.Service.Abstracts;
 
 namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
 {
     public class AuthenticationCommandHandler : ResponseHandler,
-        IRequestHandler<SignInCommand, Response<string>>
+        IRequestHandler<SignInCommand, Response<JwtAuthResult>>
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
@@ -28,14 +29,14 @@ namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
             _signInManager = signInManager;
             _authenticationService = authenticationService;
         }
-        public async Task<Response<string>> Handle(SignInCommand request, CancellationToken cancellationToken)
+        public async Task<Response<JwtAuthResult>> Handle(SignInCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByNameAsync(request.Username);
-            if (user == null) return BadRequest<string>("Incorrect Username");
+            if (user == null) return BadRequest<JwtAuthResult>("Incorrect Username");
             var signInResult = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
-            if (!signInResult.Succeeded) return BadRequest<string>("Incorrect Password");
-            var token = await _authenticationService.GetJWTToken(user);
-            return Success(token);
+            if (!signInResult.Succeeded) return BadRequest<JwtAuthResult>("Incorrect Password");
+            var result = await _authenticationService.GetJWTToken(user);
+            return Success(result);
         }
     }
 }
