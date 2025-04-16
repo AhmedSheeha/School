@@ -15,7 +15,7 @@ namespace SchoolProject.Infraustraction
     {
         public static IServiceCollection AddServiceRegisteration(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddIdentity<User, IdentityRole<int>>(option =>
+            services.AddIdentity<User, Role>(option =>
             {
                 option.Password.RequireDigit = true;
                 option.Password.RequireLowercase = true;

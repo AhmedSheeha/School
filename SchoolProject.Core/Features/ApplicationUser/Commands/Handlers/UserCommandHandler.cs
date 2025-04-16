@@ -39,6 +39,7 @@ namespace SchoolProject.Core.Features.ApplicationUser.Commands.Handlers
             {
                 return BadRequest<string>("Failed To Add User");
             }
+            await _userManager.AddToRoleAsync(identityUser, "User");
             return Created("");
             
         }

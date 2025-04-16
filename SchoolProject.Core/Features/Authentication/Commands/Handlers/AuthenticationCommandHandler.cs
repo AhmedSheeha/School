@@ -16,7 +16,8 @@ using SchoolProject.Service.Abstracts;
 namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
 {
     public class AuthenticationCommandHandler : ResponseHandler,
-        IRequestHandler<SignInCommand, Response<JwtAuthResult>>
+        IRequestHandler<SignInCommand, Response<JwtAuthResult>>,
+        IRequestHandler<RefreshTokenCommand, Response<JwtAuthResult>>
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
@@ -37,6 +38,11 @@ namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
             if (!signInResult.Succeeded) return BadRequest<JwtAuthResult>("Incorrect Password");
             var result = await _authenticationService.GetJWTToken(user);
             return Success(result);
+        }
+
+        public Task<Response<JwtAuthResult>> Handle(RefreshTokenCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
         }
     }
 }

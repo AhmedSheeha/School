@@ -64,6 +64,7 @@ namespace SchoolProject.Api
             app.UseMiddleware<ErrorHandlerMiddleware>();
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

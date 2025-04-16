@@ -3,6 +3,7 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using SchoolProject.Core.Behaviors;
+using SchoolProject.Core.Mapping.Roles;
 using SchoolProject.Core.Mapping.Students;
 using SchoolProject.Infraustraction.Abstracts;
 

@@ -25,6 +25,7 @@
     <Folder Include="Features\Authentication\Queries\" />
     <Folder Include="Features\Departments\Commands\" />
     <Folder Include="Mapping\Departments\CommandMapping\" />
+    <Folder Include="Mapping\Roles\commands\" />
   </ItemGroup>
 
 </Project>
