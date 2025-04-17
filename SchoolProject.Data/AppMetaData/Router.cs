@@ -43,6 +43,7 @@ namespace SchoolProject.Data.AppMetaData
         {
             public const string Prefix = Rule + "Authorization";
             public const string Create = Prefix + "/Create";
+            public const string Claims = Prefix + "/Claims";
             public const string Delete = Prefix + "/Delete";
             public const string Paginated = Prefix + "/Paginated";
             public const string GetById = Prefix + SingleRoute;
@@ -50,6 +51,9 @@ namespace SchoolProject.Data.AppMetaData
             public const string RoleList = Prefix + "/Role-List";
             public const string ChangePassword = Prefix + "/ChangePassword";
             public const string ManageUserRole = Prefix + "/ManageUserRoles/{id}";
+            public const string UpdateUserRole = Prefix + "/Update-User-Roles";
+            public const string ManageUserClaims = Claims + "/Manage-User-Claims/{userId}";
+            public const string UpdateUserClaims = Claims + "/Update-User-Claims/{userId}";
         }
         public static class Authentication
         {

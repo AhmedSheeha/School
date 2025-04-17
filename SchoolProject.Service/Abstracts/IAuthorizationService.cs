@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SchoolProject.Data.Entities.Identity;
+﻿using SchoolProject.Data.Entities.Identity;
 using SchoolProject.Data.Requests;
+using SchoolProject.Data.Results;
 
 namespace SchoolProject.Service.Abstracts
 {
@@ -19,8 +14,8 @@ namespace SchoolProject.Service.Abstracts
         public Task<List<Role>> GetRolesList();
         public Task<Role> GetRoleById(int id);
         public Task<ManageUserRolesResult> ManageUserRolesData(User user);
-        //public Task<string> UpdateUserRoles(UpdateUserRolesRequest request);
-        //public Task<ManageUserClaimsResult> ManageUserClaimData(User user);
-        // public Task<string> UpdateUserClaims(UpdateUserClaimsRequest request);
+        public Task<string> UpdateUserRoles(UpdateUserRolesRequest request);
+        public Task<ManageUserClaimResult> ManageUserClaimData(User user);
+        public Task<string> UpdateUserClaims(UpdateUserClaimsRequest request);
     }
 }

@@ -56,7 +56,6 @@ namespace SchoolProject.Core.Features.Authorization.Queries.Handlers
             var result = await _authorizationService.ManageUserRolesData(user);
             return Success(result);
         }
-        
-    } 
+    }
 
 }
